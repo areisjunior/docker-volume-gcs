@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	plugin "github.com/docker/go-plugins-helpers/tree/master/volume"
+	plugin "github.com/calavera/docker-volume-glusterfs"
 )
 
 // Socket address by convention. Docker will look there, so
